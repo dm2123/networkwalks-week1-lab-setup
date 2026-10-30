@@ -42,15 +42,32 @@ Set up a safe, isolated practice lab for cybersecurity learning: a Kali Linux at
 
 ## Screenshots
 
-- `01-system-specs.jpg` – Host system specifications
-- `02-nat-network-old-prefix.jpg` – NAT Network list showing the old 10.0.2.0/24 prefix (Problem 1)
-- `03-nat-network-prefix-fixed.jpg` – IPv4 prefix corrected to 10.0.0.0/24
-- `04-network-settings.jpg` – VM attached to NAT Network
-- `05-general-settings.jpg` – Clipboard & drag-and-drop set to Bidirectional
-- `06-shared-folder.jpg` – Downloads folder shared (Full access, Auto-mount)
-- `07-old-ip-problem.jpg` – `ip a` still showing the old lease 10.0.2.15 (Problem 2)
-- `08-ip-route-diagnosis.jpg` – `ip route` showing gateway 10.0.0.1 (diagnosis)
-- `09-ping-test.jpg` – Internet ping test passed (0% packet loss)
+**1. Host system specifications**
+![System specifications](01-system-specs.jpg)
+
+**2. NAT Network list — old prefix 10.0.2.0/24 (Problem 1)**
+![Old NAT prefix](02-nat-network-old-prefix.jpg)
+
+**3. IPv4 prefix corrected to 10.0.0.0/24**
+![Fixed NAT prefix](03-nat-network-prefix-fixed.jpg)
+
+**4. VM network settings — attached to NAT Network**
+![Network settings](04-network-settings.jpg)
+
+**5. Clipboard & drag-and-drop — Bidirectional**
+![General settings](05-general-settings.jpg)
+
+**6. Shared folder — host Downloads (Full access, Auto-mount)**
+![Shared folder](06-shared-folder.jpg)
+
+**7. Old IP lease 10.0.2.15 in `ip a` (Problem 2)**
+![Old IP problem](07-old-ip-problem.jpg)
+
+**8. Diagnosis — `ip route` showing gateway 10.0.0.1**
+![ip route diagnosis](08-ip-route-diagnosis.jpg)
+
+**9. Ping test passed — 0% packet loss**
+![Ping test](09-ping-test.jpg)
 
 ## Problems I Faced & How I Fixed Them
 
